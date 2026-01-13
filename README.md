@@ -12,3 +12,5 @@ ML Lab 1 : https://colab.research.google.com/drive/1m_b1k5B_g_SdbIvdEDjzuVkdVy_Z
     Generate a pairplot of the features of the dataset.
 
     Generate a correlation matrix and heatmap for the features
+
+    Correlation between Avg. Area Income and Price
