@@ -41,3 +41,27 @@ ML Lab 2 : https://colab.research.google.com/drive/10Jnw-2cJ9aFi89HS0iM0GEFBkx4-
     Apply Linear Regression to predict final percentage
 
     Evaluate the regression model using R² score, MAE, and RMSE
+
+ML Lab 3 : https://colab.research.google.com/drive/1abPCC5lwRXlGUbh9nBiD5cEUfM-6gPgE
+
+    Load the Statlog (German Credit Data) dataset into a dataframe using pandas
+
+    Check the data types of each feature (column) in the dataset
+
+    Check for missing values in the dataset
+
+    Remove or handle non-informative identifier columns (if present)
+
+    Encode categorical features using label encoding
+
+    Generate a statistical summary of the dataset
+
+    Visualize feature distributions using histograms
+
+    Generate boxplots to identify outliers
+
+    Generate a correlation matrix and heatmap for the features
+
+    Analyze the relationship between important features and credit risk using scatter plots
+
+    
