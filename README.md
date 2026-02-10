@@ -101,4 +101,37 @@ ML Lab 4 : https://colab.research.google.com/drive/1Ipwi6GzfpbpXlM5sG2MThqbW15dB
     Perform Min–Max normalization on predicted credit risk values
 
     Visualize normalized predictions using a histogram
-    
+
+ML Lab 5 : https://colab.research.google.com/drive/1ORLYaw2ZHqoUcjJC8XhZBYMlCM_yKhmP#scrollTo=bP8gQ3JFvemI
+
+    Load the German Credit dataset into a dataframe using pandas
+
+    Inspect the dataset structure, column names, data types, and statistical summary
+
+    Perform descriptive statistics on numeric features
+
+    Analyze class distribution of the target variable (Category)
+
+    Visualize credit risk distribution using a countplot
+
+    Plot histogram of Credit amount to observe distribution
+
+    Plot histogram of Age in years to analyze age distribution
+
+    Separate feature matrix (X) and target variable (Category)
+
+    Encode categorical features using one-hot encoding
+
+    Split the dataset into training and testing sets (80:20 split)
+
+    Apply feature scaling using StandardScaler
+
+    Train a Logistic Regression model on the training dataset
+
+    Generate predictions on the test dataset
+
+    Evaluate model performance using:
+        - Accuracy score
+        - Confusion matrix
+        - Classification report (precision, recall, F1-score)
+ 
