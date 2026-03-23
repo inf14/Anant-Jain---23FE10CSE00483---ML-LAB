@@ -175,3 +175,45 @@ ML Lab 6 : https://colab.research.google.com/drive/1mPEqBFWKpIAxT6OWlDE5qG0dteiN
     Identify the best hyperparameters from GridSearchCV
 
     Re-evaluate the tuned model using confusion matrix and classification report 
+
+ML Lab 7 : https://colab.research.google.com/drive/191zeQ5qR7s66zPREdovgAdSMVd8-irzN#scrollTo=BIV4qz-o_TEF
+
+    Load the German Credit dataset from a ZIP file into a dataframe using pandas
+
+    Inspect the dataset structure, column names, data types, and statistical summary
+
+    Check for missing values in the dataset
+
+    Identify and define the target variable (Category) for classification
+
+    Convert the target variable into binary format (Good = 1, Bad = 0)
+
+    Encode categorical features using Label Encoding
+
+    Perform exploratory data analysis using:
+        - Boxplots for the first 10 features
+        - Correlation matrix and heatmap
+
+    Separate feature matrix (X) and target variable (y)
+
+    Split the dataset into training and testing sets (80:20 split)
+
+    Train a Decision Tree Classifier using sklearn.tree.DecisionTreeClassifier
+
+    Generate predictions on the test dataset
+
+    Evaluate model performance using:
+        - Accuracy Score
+        - Confusion Matrix
+        - Classification Report (Precision, Recall, F1-score)
+
+    Visualize the Decision Tree using plot_tree from sklearn.tree
+
+    Improve model performance using GridSearchCV with parameters:
+        - max_depth: [3, 5, 10, None]
+        - min_samples_split: [2, 5, 10]
+        - criterion: ['gini', 'entropy']
+
+    Identify the best hyperparameters from GridSearchCV
+
+    Re-evaluate the tuned model using accuracy score, confusion matrix, and classification report
