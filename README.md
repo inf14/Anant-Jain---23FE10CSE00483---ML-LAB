@@ -134,4 +134,44 @@ ML Lab 5 : https://colab.research.google.com/drive/1ORLYaw2ZHqoUcjJC8XhZBYMlCM_y
         - Accuracy score
         - Confusion matrix
         - Classification report (precision, recall, F1-score)
- 
+
+ML Lab 6 : https://colab.research.google.com/drive/1mPEqBFWKpIAxT6OWlDE5qG0dteiNvHvR#scrollTo=Aki0L-qX6pg6
+
+    Load the German Credit dataset from a ZIP file into a dataframe using pandas
+
+    Inspect the dataset structure, column names, data types, and statistical summary
+
+    Check for missing values in the dataset
+
+    Identify and define the target variable (Category) for classification
+
+    Convert the target variable into binary format (Good = 1, Bad = 0)
+
+    Encode categorical features using Label Encoding
+
+    Perform exploratory data analysis using:
+        - Boxplots for the first 10 features
+        - Correlation matrix and heatmap
+
+    Separate feature matrix (X) and target variable (y)
+
+    Split the dataset into training and testing sets (80:20 split)
+
+    Apply feature scaling using StandardScaler
+
+    Train a Support Vector Machine (SVM) classifier using sklearn.svm.SVC
+
+    Generate predictions on the test dataset
+
+    Evaluate model performance using:
+        - Confusion Matrix
+        - Classification Report (Precision, Recall, F1-score)
+
+    Improve model performance using GridSearchCV with parameters:
+        - C: [0.1, 1, 10, 100, 1000]
+        - gamma: [1, 0.1, 0.01, 0.001, 0.0001]
+        - kernel: ['rbf']
+
+    Identify the best hyperparameters from GridSearchCV
+
+    Re-evaluate the tuned model using confusion matrix and classification report 
