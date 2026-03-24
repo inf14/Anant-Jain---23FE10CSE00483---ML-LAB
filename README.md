@@ -217,3 +217,31 @@ ML Lab 7 : https://colab.research.google.com/drive/191zeQ5qR7s66zPREdovgAdSMVd8-
     Identify the best hyperparameters from GridSearchCV
 
     Re-evaluate the tuned model using accuracy score, confusion matrix, and classification report
+
+ML Lab 8 : https://colab.research.google.com/drive/1SItwRzbcp7PSL8qyvX_jFNH5qbP3wHjx#scrollTo=unF0ObmAB6mh
+
+    Load the German Credit dataset from a ZIP file into a dataframe using pandas
+
+    Inspect the dataset structure, column names, data types, and check for missing values
+
+    Encode categorical features using Label Encoding
+
+    Prepare the dataset for clustering by removing the target variable (Category)
+
+    Apply feature scaling using StandardScaler
+
+    Determine the optimal number of clusters using the Elbow Method (WCSS)
+
+    Apply K-Means clustering using sklearn.cluster.KMeans
+
+    Assign cluster labels to the dataset
+
+    Visualize clusters using PCA (2D projection)
+
+    Compare cluster assignments with actual credit risk (Category) using cross-tabulation
+
+    Implement K-Means clustering from scratch using pairwise distance method
+
+    Visualize the clusters obtained from the scratch implementation
+
+    Analyze the limitations of K-Means clustering for non-linear and categorical data
