@@ -245,3 +245,85 @@ ML Lab 8 : https://colab.research.google.com/drive/1SItwRzbcp7PSL8qyvX_jFNH5qbP3
     Visualize the clusters obtained from the scratch implementation
 
     Analyze the limitations of K-Means clustering for non-linear and categorical data
+
+ML Lab 9 : https://colab.research.google.com/drive/1UeFgi6Zaz3A1kLCwH2lwCUfWdk8xs3BO#scrollTo=xJyTMEPwOsRz
+
+    Load the German Credit dataset into a dataframe using pandas
+
+    Inspect dataset structure, shape, and preview the first few rows
+
+    Identify the target variable (Category) and convert it into binary format:
+        - Good Credit = 0
+        - Bad Credit = 1
+
+    Encode categorical features using Label Encoding
+
+    Separate feature matrix (X) and target variable (y)
+
+    Split the dataset into training and testing sets (80:20 split)
+
+    Apply feature scaling using StandardScaler
+
+    -------------------------------
+    Artificial Neural Network (ANN)
+    -------------------------------
+
+    Build a Sequential ANN model using TensorFlow/Keras:
+        - Input layer based on number of features
+        - Hidden layers with ReLU activation
+        - Output layer with Sigmoid activation
+
+    Compile the model using:
+        - Optimizer: Adam
+        - Loss: Binary Crossentropy
+        - Metric: Accuracy
+
+    Train the ANN model using training data
+
+    Evaluate ANN performance using:
+        - Accuracy Score
+        - Confusion Matrix
+        - Classification Report (Precision, Recall, F1-score)
+
+    Plot training vs validation accuracy
+
+    -------------------------------
+    Convolutional Neural Network (CNN)
+    -------------------------------
+
+    Reshape tabular data to 3D format for CNN input
+
+    Build a 1D CNN model using TensorFlow/Keras:
+        - Conv1D layers for feature extraction
+        - MaxPooling layers for dimensionality reduction
+        - Flatten layer to convert into dense format
+        - Dense layer with Dropout for regularization
+        - Output layer with Sigmoid activation
+
+    Compile the CNN model using:
+        - Optimizer: Adam
+        - Loss: Binary Crossentropy
+        - Metric: Accuracy
+
+    Train the CNN model on reshaped data
+
+    Evaluate CNN performance using:
+        - Accuracy Score
+        - Confusion Matrix
+        - Classification Report
+
+    Plot training vs validation accuracy for CNN
+
+    -------------------------------
+    Comparative Analysis
+    -------------------------------
+
+    Compare ANN and CNN performance on:
+        - Accuracy
+        - Generalization capability
+
+    Analyze why ANN performs better for tabular data:
+        - Lack of spatial relationships in features
+        - CNN is more suited for image data
+     Conclusion:
+     ANN performed better than CNN for the German Credit dataset as it is tabular data without spatial structure, making CNN less effective.
